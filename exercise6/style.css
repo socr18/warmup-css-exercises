@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.interior {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.div1 {
+    top: 10px;
+    left: 75px;
+    background: red;
+}
+
+.div2 {
+    top: 10px;
+    left: 220px;
+    background: orange;
+    border: 4px solid white;
+    outline: 1px dotted orange;
+    transform: rotate(-20deg);
+}
+
+.div3 {
+    top: 100px;
+    left: 180px;
+    background: yellow;
+    border: 4px solid white;
+    outline: 1px dotted yellow;
+    transform: rotate(50deg);
+}
+
+.div4 {
+    top: 60px;
+    left: 95px;
+    background: blue;
+    border: 4px solid white;
+    outline: 1px dotted blue;
+    transform: rotate(35deg);
+}
+
+.div5 {
+    top: 45px;
+    left: 20px;
+    background: plum;
+    transform: rotate(20deg);
+    border: 4px solid white;
+    outline: 1px dotted plum;
+}

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.interior {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: blue;
+}
+
+.div1 {
+    top: 0;
+    left: 0;
+}
+
+.div2 {
+    top: 0;
+    left: 120px;
+}
+
+.div3 {
+    top: 120px;
+    left: 0;
+}
+
+.div4 {
+    top: 120px;
+    left: 120px;
+}
+
+.div5 {
+    top: 60px;
+    left: 60px;
+    background: red;
+    transform: rotate(45deg);
+}
+
+.div5::before {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    top: 30px;
+    border-radius: 50%;
+    background: white;
+}
+.div5::after {
+    content: '\2605';
+    position: absolute;
+    font-size: 40px;
+    left: 35px;
+    top: 20px;
+    transform: rotate(27deg);
+}
